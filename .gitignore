@@ -26,12 +26,64 @@ npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macOS
+# macOS / OS & IDEs
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
 *.pem
+*~
+
+# caches
+.cache/
+.metro-cache/
+.eslintcache
+.turbo/
+.parcel-cache/
+coverage/
+
+# temp & logs
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.orig
+*.log
+logs/
+pnpm-debug.log*
 
 # local env files
-.env*.local
+.env
+.env.*
+!.env.example
+
+# databases
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# media
+media/
+
+# AI skills & agent configs
+.agents/
+.claude/
+.cursor/
+.codex/
+.gemini/
+skills/
+skills-lock.json
+AGENTS.md
+CLAUDE.md
 
 # typescript
 *.tsbuildinfo
